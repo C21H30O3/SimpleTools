@@ -1,0 +1,4 @@
+main: pl.oliver.tools.ToolsPlugin
+version: 1.0
+author: IllegalIsLegal
+name: ToolsPlugin
