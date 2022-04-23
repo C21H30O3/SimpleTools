@@ -5,6 +5,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 import pl.oliver.tools.command.player.FlyCommand;
 import pl.oliver.tools.command.player.GameModeCommand;
+import pl.oliver.tools.command.player.ListCommand;
 import pl.oliver.tools.config.ToolsConfiguration;
 import pl.oliver.tools.listener.PlayerJoinQuitListener;
 
@@ -21,6 +22,7 @@ public class ToolsPlugin extends JavaPlugin {
         this.toolsConfiguration = new ToolsConfiguration();
         new GameModeCommand();
         new FlyCommand();
+        new ListCommand();
         registerListeners(new PlayerJoinQuitListener());
     }
 
